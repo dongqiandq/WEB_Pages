@@ -1,0 +1,69 @@
+*{
+	padding: 0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+ol,li,ul{
+	list-style: none;
+}
+.clear:after{
+	content: "";
+	height: 0;
+	clear: both;
+	display: block;
+}
+
+
+.serve{
+	width: 1200px;
+	margin:0 auto;
+	height: 806px;
+	overflow: hidden;
+	text-align: center;
+}
+.serve h3{
+	margin-top: 50px;
+}
+.servelist li{
+	float: left;
+	width: 300px;
+}
+.servelist .litop{
+	height: 366px;
+}
+.serve ul{
+	text-align: left;
+	margin-left: 100px;
+}
+.serve ul li{
+	background: url();
+	/*padding-left: ;*/
+	text-indent: ;/*或首行缩进*/
+	/*或list-style-image: url();*/
+}
+.solve{
+	width: 1200px;
+	height: ;
+	margin:0 auto;
+}
+.solve li
+i{
+	display: block;
+	width: 26px;
+	height: 35px;
+	position: absolute;
+	top:345px;
+	background: #000;
+}
+
+p{
+	text-align: center; 
+}
+.last a{
+	color: #fff;
+	padding: 0 12px;
+	border:;
+}
