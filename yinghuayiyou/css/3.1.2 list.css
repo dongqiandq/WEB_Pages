@@ -112,7 +112,7 @@ a{
 /*banner开始*/
 .main .content .banner{
 	background: #fff;
-	height: 577px;
+	height: 677px;
 }
 .main .content .banner .images{
 	float: left;
@@ -252,6 +252,8 @@ a{
 /*list结束*/
 .main .content .shuoming{
 	height: 1915px;
+	margin-top: 50px;
+	background: #fff;
 }
 .main .content .shuoming td{
 	border:solid 0.5px #c1c1c1;
@@ -343,7 +345,7 @@ a{
 }
 /*images开始*/
 .main .content .images{
-	margin-top: 96px;
+	margin-top: 46px;
 }
 .main .content .images li{
 	float: left;
