@@ -1,0 +1,256 @@
+*{
+	margin:0;
+	padding:0;
+}
+ol,ul,li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+.clear:after{
+	content: "";
+	height: 0px;
+	display: block;
+	clear: both;
+}
+.clear:before{
+	content: "";
+	height: 0px;
+	display: block;
+	clear: both;
+}
+.top{
+	margin:0 auto;
+	width: 750px;
+	height: 80px;
+	background: #f8f8f8;
+	border-bottom: solid 2px #dedede;
+}
+.top .header{
+	text-align: center;
+	width: 715px;
+	height: 60px;
+	background: #e6e6e8;
+	border-radius: 10px;
+	margin:0 auto;
+}
+.top .header .sousuo{
+	padding-top: 10px;
+	font-size: 30px;
+	text-align: center;
+}
+.top .header img{
+	float: right;
+}
+/*top结束*/
+/*logo开始*/
+.logo{
+	padding-top: 22px;
+	height: 115px;
+	width: 750px;
+	margin:0 auto;
+	border-bottom: solid 2px #000;
+}
+.logo .content{
+	height: 115px;
+	width: 670px;
+	margin:0 auto;
+	position: relative;
+}
+.logo .content .img1{
+	margin-top:23px; 
+}
+.logo .content .img2{
+	position: absolute;
+	bottom: 40px;
+	right:0;
+}
+.logo .content .right .red{
+	border-radius: 10px;
+	background: #e94f1a;
+	width: 165px;
+	height: 55px;
+	color: #fff;
+	font-size: 24px;
+	border:none;
+	position: absolute;
+	right: 90px;
+	bottom: 40px;
+}
+/*logo结束*/
+/*main 开始*/
+.main{
+	width: 670px;
+	padding-right: 40px;
+	padding-left: 40px;
+	margin:0 auto;
+}
+.main .title{
+	font-size: 30px;
+	padding-top: 47px;
+	padding-bottom: 30px;
+}
+.main .list li{
+	font-size: 24px;
+	height: 80px;
+	border:solid 0.5px #dedede;
+}
+.main .list li span{
+	display: inline-block;
+	width: 105px;
+	background: #f5f5f5;
+	line-height: 80px;
+	text-align: center;
+}
+.main .list li a{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.main .list li .gengduo{
+	padding-right:0px;
+	padding-left: 65px;
+}
+.main .list .hui{
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #666666;
+	line-height: 80px;
+}
+.main .price{
+	height:80px;
+	background:#f5f5f5;
+	margin-top: 45px;
+	border: solid 1px #cacaca;
+}
+.main .price span{
+	font-size: 24px;
+}
+.main .price .left{
+	padding-left: 30px;
+}
+.main .price .con{
+	margin-top: 30px;
+}
+.main .tuwen{
+	height: 1042px;
+}
+.main .tuwen li{
+	margin-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: solid 1px #cecece;
+}
+.main .tuwen img{
+	padding-right: 24px;
+	float: left;
+}
+.main .tuwen .text .p1{
+	font-size: 20px;
+	color: #989898;
+	line-height: 35px;
+	margin-top: 20px;
+}
+.main .tuwen .text .sp1{
+	color: red;
+	font-size: 20px;
+}
+.main .tuwen .text .sp2{
+	color: red;
+	font-size: 36px;
+}
+.main .tuwen .text .sp3{
+	font-size: 20px;
+}
+.main .anniu{
+	height: 55px;
+	padding-top: 79px;
+	padding-bottom: 135px;
+}
+.main .anniu li{
+	float: left;
+}
+.main .anniu .fang{
+	width: 53px;
+	height: 53px;
+	border: solid 1px #cecece;
+	margin-right: 7px;
+	border-radius: 5px;
+}
+.main .anniu .last{
+	width: 100px;
+	height: 53px;
+	border: solid 1px #cecece;
+	border-radius: 5px;
+	text-align: center;
+}
+.main .anniu .hua:hover{
+	background: #1c5080;
+	color: #fff;
+}
+.main .anniu .image{
+	margin-top: 18px;
+	margin-left: 18px;
+}
+.main .anniu .all{
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 25px;
+	margin-left: 20px;
+}
+/*main结束*/
+/*buttom开始*/
+.buttom{
+	width: 750px;
+	height: 480px;
+	background: #000;
+	margin:0 auto;
+}
+.buttom .content{
+	width: 670px;
+	height: 480px;
+	margin:0 auto;
+	position: relative;
+}
+.buttom .content .zixun{
+	font-size: 30px;
+	color: #fff;
+	border: solid 2px #c2c2c3;
+	height: 100px;
+	width: 666px;
+	position: absolute;
+	top: 62px;
+	position: relative;
+}
+.buttom .content .zixun span{
+	position: absolute;
+	left:157px;
+	top: 30px;
+}
+.buttom .content p{
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+}
+.buttom .content .p1{
+	position: absolute;
+	top:210px;
+	left: 100px;
+}
+.buttom .content .p2{
+	position: absolute;
+	top:291px;
+	left: 150px;
+}
+.buttom .content .p3{
+	position: absolute;
+	top:330px;
+	left: 146px;
+}
+.buttom .content .p4{
+	position: absolute;
+	top:373px;
+	left: 218px;
+}
+/*buttom结束*/

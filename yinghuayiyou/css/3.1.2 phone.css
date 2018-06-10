@@ -1,0 +1,346 @@
+*{
+	margin:0;
+	padding:0;
+}
+ol,ul,li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+.clear:after{
+	content: "";
+	height: 0px;
+	display: block;
+	clear: both;
+}
+.clear:before{
+	content: "";
+	height: 0px;
+	display: block;
+	clear: both;
+}
+.top{
+	margin:0 auto;
+	width: 750px;
+	height: 80px;
+	background: #f8f8f8;
+	border-bottom: solid 2px #dedede;
+}
+.top .header{
+	text-align: center;
+	width: 715px;
+	height: 60px;
+	background: #e6e6e8;
+	border-radius: 10px;
+	margin:0 auto;
+}
+.top .header .sousuo{
+	padding-top: 10px;
+	font-size: 30px;
+	text-align: center;
+}
+.top .header img{
+	float: right;
+}
+/*top结束*/
+/*logo开始*/
+.logo{
+	padding-top: 22px;
+	height: 115px;
+	width: 750px;
+	margin:0 auto;
+	border-bottom: solid 2px #000;
+}
+.logo .content{
+	height: 115px;
+	width: 670px;
+	margin:0 auto;
+	position: relative;
+}
+.logo .content .img1{
+	margin-top:23px; 
+}
+.logo .content .img2{
+	position: absolute;
+	bottom: 40px;
+	right:0;
+}
+.logo .content .right .red{
+	border-radius: 10px;
+	background: #e94f1a;
+	width: 165px;
+	height: 55px;
+	color: #fff;
+	font-size: 24px;
+	border:none;
+	position: absolute;
+	right: 90px;
+	bottom: 40px;
+}
+/*logo结束*/
+/*banner开始*/
+.banner{
+	width: 750px;
+	height: 448px;
+	margin:0 auto;
+}
+/*banner结束*/
+/*main开始*/
+.main{
+	width: 750px;
+	margin: 0 auto;
+}
+.main .content{
+	width: 670px;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+.main .content p{
+	font-size: 22px;
+	line-height: 50px;
+}
+.main .content .p1,.p2{
+	color: #666;
+}
+.main .content .p3{
+	font-size: 36px;
+}
+.main .content .p1{
+	margin-top: 25px;
+}
+.main .content .jihua{
+	margin-top: 64px;
+}
+.main .content .jihua .text{
+	font-size: 29px;
+	padding-right: 23px;
+}
+.main .content .jihua .kuang{
+	vertical-align: middle;
+	width: 317px;
+	height: 60px;
+	border: solid 1px red;
+	display: inline-block;
+}
+.main .content .jihua .kuang .riqi{
+	font-size: 24px;
+	display: inline-block;
+	margin: 18px 50px;
+}
+.main .content .chufa{
+	margin-top: 43px;
+}
+.main .content .chufa .up{
+	width: 670px;
+}
+.main .content .chufa .text{
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 29px;
+	float: left;
+}
+.main .content .chufa .renshu{
+	padding-right: 45px;
+}
+.main .content .chufa .chengren{
+	padding-right: 24px;
+}
+.main .content .chufa ul{
+	vertical-align: middle;
+	float: left;
+}
+.main .content .chufa li{
+	width: 85px;
+	height: 53px;
+	border: solid 1px #666;
+	float: left;
+	font-size: 31px;
+	text-align: center;
+	padding-top: 5px;
+}
+.main .content .chufa .sp1{
+	font-size: 20px;
+	color: #666;
+	display: inline-block;
+	margin-left: 34px;
+	margin-top: 20px;
+}
+.main .content .chufa .down ul{
+	margin-top: 26px;
+}
+.main .content .chufa .down .child{
+	display: inline-block;
+	margin-left: 160px;
+	margin-top: 30px;
+	margin-right: 26px;
+}
+.main .content .tip p{
+	font-size: 22px;
+	color: #666;
+	line-height: 40px;
+}
+.main .content .heji{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.main .content .heji .sp5{
+	font-size: 24px;
+	color: #666;
+}
+.main .content .heji .sp6{
+	color: red;
+	font-size: 15px;
+}
+.main .content .heji .sp8{
+	color: #e8420a;
+	font-size: 43px;
+}
+.main .content .red{
+	height: 65px;
+	background: #e8420a;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 34px;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 134px;
+}
+/*main结束*/
+/*预定开始*/
+.yuding{
+	width: 750px;
+	margin:0 auto;
+}
+.yuding .fenge{
+	background:#f5f5f5;
+	height: 20px; 
+}
+.yuding .title{
+	height: 121px;
+	border-bottom: solid 1.5px #1c5080;
+	margin-bottom: 30px;
+}
+.yuding .title .zi{
+	display: inline-block;
+	margin-top: 60px;
+	height: 32px;
+	background: #1c5080;
+	font-size: 30px;
+	color: #fff;
+	padding:15px 36px;
+}
+.yuding .content1{
+	width: 670px;
+	margin:0 auto;
+	height: 780px;
+	border: solid 1px #666;
+	margin-bottom: 50px;
+}
+.yuding .content2{
+	width: 670px;
+	margin:0 auto;
+	padding-top: 43px;
+	position: relative;
+	margin-bottom: 43px;
+}
+.yuding img{
+	float: left;
+}
+.yuding .text{
+	display: inline-block;
+	margin-left: 25px;
+}
+.yuding .text .p4{
+	color: #e8420a;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.yuding .text .p5{
+	color: #666;
+	font-size: 22px;
+	line-height: 42px;
+}
+.yuding .niu{
+	width: 93px;
+	height: 24px;
+	border: solid 1px #666;
+	font-size: 22px;
+	color: #666;
+	display: inline-block;
+	border-radius: 10px;
+	position: absolute;
+	right: 0;
+	top:70px;
+}
+.yuding .content3{
+	width: 670px;
+	margin:0 auto;
+	padding-top: 43px;
+	position: relative;
+	margin-bottom: 43px;
+}
+.yuding .content3 .p6{
+	color: #1c5080;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+/*预定结束*/
+/*last开始*/
+.last{
+	width: 750px;
+	height: 480px;
+	background: #000;
+	margin:0 auto;
+	margin-top: 533px;
+}
+.last .content{
+	width: 670px;
+	height: 480px;
+	margin:0 auto;
+	position: relative;
+}
+.last .content .zixun{
+	font-size: 30px;
+	color: #fff;
+	border: solid 2px #c2c2c3;
+	height: 100px;
+	width: 666px;
+	position: absolute;
+	top: 62px;
+	position: relative;
+}
+.last .content .zixun span{
+	position: absolute;
+	left:157px;
+	top: 30px;
+}
+.last .content p{
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+}
+.last .content .p8{
+	position: absolute;
+	top:210px;
+	left: 100px;
+}
+.last .content .p9{
+	position: absolute;
+	top:291px;
+	left: 150px;
+}
+.last .content .p10{
+	position: absolute;
+	top:330px;
+	left: 146px;
+}
+.last .content .p11{
+	position: absolute;
+	top:373px;
+	left: 218px;
+}
+/*last结束*/

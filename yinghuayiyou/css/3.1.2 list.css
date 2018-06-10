@@ -1,0 +1,514 @@
+*{
+	margin:0;
+	padding:0;
+}
+ol,ul,li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+.clear:after{
+	content: "";
+	height: 0px;
+	display: block;
+	clear: both;
+}
+.clear:before{
+	content: "";
+	height: 0px;
+	display: block;
+	clear: both;
+}/*header开始*/
+.header .top{
+	width: 100%;
+	height: 45px;
+	background: #333333;
+}
+.header .top .box{
+	float:right;
+	width: 374px;
+}
+.header .top .box img{
+	vertical-align: middle;
+}
+.header .top .box .tel{
+	font-size: 20px;
+	display: inline-block;
+	margin-left: 8px;
+	color: #fff;
+}
+.header .top .box1{
+	display: inline-block;
+	width: 180px;
+}
+.header .top .box .left{
+	line-height: 45px;
+	display: inline-block;
+	padding-left: 43px;
+	color: #fff;
+}
+.header .top .box .right{
+	line-height: 45px;
+	display: inline-block;
+	margin-left: 17px;
+	padding-left: 17px;
+	color: #fff;
+	background: url(../images/dq3.png) no-repeat 0 center;
+}
+.header .nav{
+	width: 100%;
+	height: 80px;
+}
+.header .nav img{
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 14px;
+}
+.header .nav ul{
+	display: inline-block;
+	float: right;
+	margin-top: 28px;
+	margin-right: 50px;
+}
+.header .nav li{
+	float: left;
+	text-align: center;
+	padding: 0 25px;
+	font-size: 20px;
+}
+.header .nav li:hover{
+	color: red;
+	border-bottom: solid 2px red;
+}
+.header .nav a{
+	display: inline-block;
+	padding-bottom: 18px;
+	
+}
+/*header结束*/
+/*main开始*/
+.main{
+	width: 100%;
+	height: 3630px;
+	background: #f5f5f5;
+}
+.main .qq{
+	float: right;
+}
+.main .content{
+	width: 1200px;
+	height: 3630px;
+	margin:0 auto;
+}
+/*nav开始*/
+.main .content .nav{
+	line-height: 97px;
+	font-size: 18px;
+}
+/*nav结束*/
+/*banner开始*/
+.main .content .banner{
+	background: #fff;
+	height: 577px;
+}
+.main .content .banner .images{
+	float: left;
+	width: 690px;
+	height: 577px;
+	display: inline-block;
+}
+.main .content .banner .text{
+	width: 485px;
+	height: 527px;
+	margin-top: 50px;
+	float: right;
+	display: inline-block;
+}
+.main .content .banner .text .p1{
+	font-size: 30px;
+	margin-bottom: 75px;
+}
+.main .content .banner .text .p2{
+	font-size: 20px;
+	color: #989898;
+	line-height:40px;
+}
+.main .content .banner .text .p3{
+	margin-top: 49px;
+}
+/*banner结束*/
+/*list开始*/
+.main .content .list{
+	height: 610px;
+	margin-top: 50px;
+	background: #fff;
+	border: solid 1px #b5b5b5;
+}
+.main .content .list .title{
+	width: 198px;
+	line-height: 49px;
+	background: #1c5080;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+}
+.main .content .list .left{
+	width: 720px;
+	height: 467px;
+	float: left;
+}
+.main .content .list .right{
+	width: 465px;
+	height: 467px;
+	float: right;
+	position: relative;
+}
+.main .content .list table{
+	border:solid 1px #b5b5b5;
+	width: 720px;
+	height: 467px;
+	float: left;
+}
+.main .content .list table td{
+	border:solid 0.3px #b5b5b5;
+	width: 100px;
+	height: 48px;
+}
+.main .content .list .day td{
+	text-align: center;
+}
+.main .content .list .spe
+{
+	height: 60px;
+	font-size: 20px;
+	background: #f5f5f5;
+}
+.main .content .list .p4{
+	color: red;
+	font-size: 14px;
+	padding-left: 22px;
+}
+.main .content .list .p5{
+	padding-left: 75px;
+}
+.main .content .list .right .pos{
+	height: 350px;
+	position: absolute;
+	width: 465px;
+	top:60px;
+	left: 0;
+	margin-top: 56px;
+	margin-left: 77px;
+}
+.main .content .list .right .top .text1{
+	font-size: 18px;
+	padding-right: 28px;
+}
+.main .content .list .right .top .text2{
+	font-size: 14px;
+	color:#c1c1c1;
+	padding-left: 30px;
+}
+.main .content .list .right .mid{
+	margin-top: 47px;
+}
+.main .content .list .right .mid .text1{
+	font-size: 18px;
+	padding-right: 28px;
+}
+.main .content .list .right .mid .text2{
+	font-size: 14px;
+	color: #c1c1c1;
+	padding-left: 30px;
+}
+.main .content .list .right .buttom .tip{
+	font-size: 14px;
+	color: red;
+	margin-top: 98px;
+}
+.main .content .list .right .buttom .text{
+	font-size: 14px;
+	margin-top: 17px;
+}
+.main .content .list .right .buttom{
+	position: absolute;
+	left:-45px;
+}
+.main .content .list{
+	position: relative;
+}
+.main .content .list .money{
+	position: absolute;
+	bottom: 0;
+	height: 85px;
+	width: 1200px;
+}
+.main .content .list .money .heji{
+	float: right;
+}
+/*list结束*/
+.main .content .shuoming{
+	height: 1915px;
+}
+.main .content .shuoming td{
+	border:solid 0.5px #c1c1c1;
+}
+.main .content .shuoming .tr1{
+	line-height: 75px;
+	height: 75px;
+	padding-right: 1005px;
+}
+.main .content .shuoming .td1{
+	width: 1200px;
+}
+.main .content .shuoming .td1 div{
+	height: 75px;
+	width: 195px;
+	color: #fff;
+	font-size: 24px;
+	background: #1c5080;
+	text-align: center;
+}
+.main .content .shuoming li{
+	border:solid 0.5px #c1c1c1;
+}
+.main .content .shuoming .lli1{
+	height: 75px;
+	border-bottom:solid 1px #1c5080;
+}
+.main .content .shuoming .lli1 div{
+	width: 195px;
+	line-height: 76px;
+	background: #1c5080;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+}
+.main .content .shuoming .lli2{
+	height: 435px;
+}
+.main .content .shuoming .lli3 .text2{
+	font-size: 20px;
+	margin-left: 64px;
+	margin-right: 25px;
+	line-height: 40px;
+}
+.main .content .shuoming .lli2 .text1{
+	margin-top: 38px;
+}
+.main .content .shuoming .title{
+	font-size: 30px;
+	padding-left: 64px;
+	margin-top: 42px;
+}
+.main .content .shuoming .text{
+	font-size: 20px;
+	color: #808080;
+	margin-left: 64px;
+	margin-right: 25px;
+	line-height: 40px;
+	margin-top: 30px;
+}
+.main .content .shuoming .lli3{
+	height: 265px;
+}
+.main .content .shuoming .lli4{
+	height: 185px;
+}
+.main .content .shuoming .lli5{
+	height: 445px;
+}
+.main .content .shuoming .lli5 .big{
+	font-size: 24px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	margin-left: 64px;
+}
+.main .content .shuoming .lli5 .small{
+	font-size: 20px;
+	line-height: 40px;
+	color:#808080; 
+	margin-left: 64px;r
+}
+.main .content .shuoming .lli6{
+	height: 505px;
+}
+.main .content .shuoming img{
+	margin-top: 42px;
+	margin-left: 30px;
+	float: left;
+}
+/*images开始*/
+.main .content .images{
+	margin-top: 96px;
+}
+.main .content .images li{
+	float: left;
+	padding-right: 11px;
+}
+/*images结束*/
+/*content结束*/
+/*last开始 */
+.last{
+	height: 800px;
+	background:#000;
+	position: relative;
+}
+.last .main{
+	width: 1200px;
+	height: 800px;
+	margin:0 auto;
+}
+.last .firstall{
+	height: 2px;
+	position: absolute;
+	top: 272px;
+	width: 100%;
+	border-bottom: solid 1px #fff; 
+}
+.last .twoall{
+	height: 2px;
+	position: absolute;
+	top: 641px;
+	width: 100%;
+	border-bottom: solid 1px #fff; 
+}
+.last .main .first{
+	height: 270px;
+	position: relative;
+}
+.last .main .first .left{
+	float: left;
+	width: 780px;
+	position: absolute;
+	top: 75px;
+	height: 195px;
+}
+.last .main .first .left .boss ul{
+	float: left;
+	color: #fff;
+	margin-left: 45px;
+}
+.last .main .first .left .boss .a{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.last .main .first .left .boss .b{
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.last .main .first .left .boss .xinlang{
+	margin-bottom: 15px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.last .main .first .left .boss .weixin{
+	position: absolute;
+	top:0;
+	padding-top: 42px;
+	margin-left: 18px;
+	position: relative;
+}
+.last .main .first .left .boss .weixin .text{
+	font-size: 14px;
+	color: #fff;
+	margin-top:24px;
+	position: absolute;
+	left:480px;
+}
+.last .main .first .left .boss .dingwei{
+	position: relative;
+}
+.last .main .first .right{
+	float: right;
+	height: 195px;
+	width: 410px;
+	margin-top: 75px;
+}
+.last .main .first .right .text .top{
+	color:#fff;
+	font-size: 26px;
+}
+.last .main .first .right .text .top .a{
+	padding-left: 25px;
+}
+.last .main .first .right .text .top .b{
+	padding-left: 20px;
+}
+.last .main .first .right .text .buttom{
+	background: none;
+	border:none;
+}
+.last .main .first .right .text .top .c{
+	padding-left: 25px;
+	padding-top: 10px;
+	font-size: 10px;
+	color: #fff;
+}
+.last .main .first .right .text .buttom .d{
+	font-size: 26px;
+	color: #fff;
+}
+.last .main .first .right .text .e{
+	font-size: 16px;
+	color: #fff;
+	margin-left: 76px;
+	margin-bottom: 10px;
+}
+.last .main .two{
+	position: relative;
+	height: 368px;
+}
+.last .main .two .fir{
+	position: absolute;
+	top: 45px;
+}
+.last .main .two .fir li{
+	float: left;
+	margin-right: 15px;
+}
+.last .main .two .fir .title1{
+	color: #fff;
+	font-size: 18px;
+	margin-right: 20px;
+}
+.last .main .two .fir .title2{
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+.last .main .two .sec{
+	position: absolute;
+	top:153px;
+}
+.last .main .two .thir{
+	position: absolute;
+	top:230px;
+}
+.last .main .two .four{
+	position: absolute;
+	top:274px;
+}
+.last .main .two .title3{
+	font-size: 18px;
+	color: #fff;
+	margin-right: 20px;
+	float: left;
+}
+.last .main .two .title4{
+	font-size: 14px;
+	color: #fff;
+	margin-right: 14px
+}
+.last .main .three{
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+.last .main{
+	background: #000;
+}
+/*last结束*/
